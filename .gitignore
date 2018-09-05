@@ -1,0 +1,3 @@
+# add your ide project settings files here:
+**/*.sublime-project
+**/*.sublime-workspace
