@@ -1,0 +1,6 @@
+{
+    "require": {
+        "lotfio/ouch": "^0.1.7",
+        "paragonie/easydb": "^2"
+    }
+}

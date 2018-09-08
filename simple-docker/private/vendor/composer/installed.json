@@ -1,0 +1,102 @@
+[
+    {
+        "name": "lotfio/ouch",
+        "version": "0.1.7",
+        "version_normalized": "0.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lotfio/ouch.git",
+            "reference": "9ec2ca82642c5bed5d489f4399e7997f12bd88d1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lotfio/ouch/zipball/9ec2ca82642c5bed5d489f4399e7997f12bd88d1",
+            "reference": "9ec2ca82642c5bed5d489f4399e7997f12bd88d1",
+            "shasum": ""
+        },
+        "time": "2018-05-25T15:13:45+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Ouch/Support/functions.php"
+            ],
+            "psr-4": {
+                "Ouch\\": "src/Ouch/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "lotfio",
+                "email": "lotfiolakehal@gmail.com"
+            }
+        ],
+        "description": "Ouch Error handler for PHP"
+    },
+    {
+        "name": "paragonie/easydb",
+        "version": "v2.6.2",
+        "version_normalized": "2.6.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paragonie/easydb.git",
+            "reference": "fe0c6919219314f0254f8e0a763dcf180124714b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paragonie/easydb/zipball/fe0c6919219314f0254f8e0a763dcf180124714b",
+            "reference": "fe0c6919219314f0254f8e0a763dcf180124714b",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": "^7"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5",
+            "squizlabs/php_codesniffer": "^2.7",
+            "vimeo/psalm": "1.1.1"
+        },
+        "time": "2018-06-14T17:11:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ParagonIE\\EasyDB\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Scott Arciszewski",
+                "email": "scott@paragonie.com",
+                "homepage": "https://paragonie.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Woody Gilk",
+                "homepage": "https://github.com/shadowhand",
+                "role": "Contributor"
+            },
+            {
+                "name": "SignpostMarv",
+                "homepage": "https://github.com/SignpostMarv",
+                "role": "Contributor"
+            }
+        ],
+        "description": "Easy-to-use database abstraction",
+        "keywords": [
+            "database",
+            "pdo",
+            "security",
+            "sql"
+        ]
+    }
+]
